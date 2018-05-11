@@ -1,0 +1,18 @@
+{
+  "name": "swarmpipe",
+  "version": "0.0.1",
+  "description": "Pipe hypercore feeds stdin/stdout with discover-swarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Gautier",
+  "license": "ISC",
+  "dependencies": {
+    "dat-swarm-defaults": "^1.0.1",
+    "discovery-swarm": "^5.1.1",
+    "hypercore": "^6.14.0",
+    "random-access-memory": "^3.0.0",
+    "utp-native": "^1.7.1"
+  }
+}
