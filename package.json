@@ -1,10 +1,13 @@
 {
   "name": "swarmpipe",
-  "version": "0.0.1",
-  "description": "Pipe hypercore feeds stdin/stdout with discover-swarm",
+  "version": "0.0.2",
+  "description": "Pipe hypercore feeds over stdin/stdout with discover-swarm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "swarmpipe": "./index.js"
   },
   "author": "Julian Gautier",
   "license": "ISC",
